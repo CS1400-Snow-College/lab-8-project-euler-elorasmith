@@ -1,0 +1,15 @@
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-8-project-euler-elorasmith\bin\Debug\net8.0\lab-8-project-euler-elorasmith.exe
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-8-project-euler-elorasmith\bin\Debug\net8.0\lab-8-project-euler-elorasmith.deps.json
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-8-project-euler-elorasmith\bin\Debug\net8.0\lab-8-project-euler-elorasmith.runtimeconfig.json
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-8-project-euler-elorasmith\bin\Debug\net8.0\lab-8-project-euler-elorasmith.dll
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-8-project-euler-elorasmith\bin\Debug\net8.0\lab-8-project-euler-elorasmith.pdb
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-8-project-euler-elorasmith\obj\Debug\net8.0\lab-8-project-euler-elorasmith.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-8-project-euler-elorasmith\obj\Debug\net8.0\lab-8-project-euler-elorasmith.AssemblyInfoInputs.cache
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-8-project-euler-elorasmith\obj\Debug\net8.0\lab-8-project-euler-elorasmith.AssemblyInfo.cs
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-8-project-euler-elorasmith\obj\Debug\net8.0\lab-8-project-euler-elorasmith.csproj.CoreCompileInputs.cache
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-8-project-euler-elorasmith\obj\Debug\net8.0\lab-8-project-euler-elorasmith.sourcelink.json
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-8-project-euler-elorasmith\obj\Debug\net8.0\lab-8-project-euler-elorasmith.dll
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-8-project-euler-elorasmith\obj\Debug\net8.0\refint\lab-8-project-euler-elorasmith.dll
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-8-project-euler-elorasmith\obj\Debug\net8.0\lab-8-project-euler-elorasmith.pdb
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-8-project-euler-elorasmith\obj\Debug\net8.0\lab-8-project-euler-elorasmith.genruntimeconfig.cache
+C:\Users\14358\OneDrive\Desktop\code\my-code-dir\lab-8-project-euler-elorasmith\obj\Debug\net8.0\ref\lab-8-project-euler-elorasmith.dll
