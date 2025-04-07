@@ -2,6 +2,8 @@
 
 // Elora Smith, 3/25/25, Lab 8 Project Euler
 
+
+using System.Diagnostics;
 using System.Runtime.InteropServices;
 Console.Clear();
 Console.WriteLine("This is a program that will solve four Euler Project problems. Press the number of the problem you want to see.");
@@ -21,7 +23,12 @@ Find the difference between the sum of the squares of the first one hundred natu
 
 Answer: ";
 
-Console.WriteLine("1- Multiples of 3 and 5 \n\n2- Sum Square Difference ");
+string three = @"The sum of primes below 10 is 2 + 3 + 5 + 7 = 17.
+Find the sum of all the primes below two million.
+
+Answer: ";
+
+Console.WriteLine("1- Multiples of 3 and 5 \n\n2- Sum Square Difference \n\n3- Summation of Primes ");
 int choice = Convert.ToInt32(Console.ReadLine());
 switch (choice)
 {
@@ -41,9 +48,15 @@ switch (choice)
         Console.WriteLine(difference);
         break;
     }
+    case 3:
+    {
+        Console.Clear();
+        Console.WriteLine(three);
+        long sumPrime = SumOfPrimes(2000000);
+        Console.WriteLine(sumPrime);
+        break;
+    }
 }
-
-
 
 
 // MULTIPLES OF 3 OR 5
@@ -75,33 +88,35 @@ static double SumSquareDifference(double n)
     return difference;
 } 
 
+
+
 // SUMMATION OF PRIMES
-/*
-double sum = SumOfPrimes(10);
-Console.WriteLine(sum);
-static double SumOfPrimes(double n)
+
+static long SumOfPrimes(int n)
 {
-    bool isPrime = false;
-    double sum = 0;
-    for (double i = 2; i < n; i++)
+    long sum = 0;
+    for (int i = 2; i < n; i++)
     {
-        for (double j = 1; j <= i; j++)
-        {
-            if (i % j == 0 && j != i)
-            {
-                    isPrime = false;
-               // Console.Write($"{i}%{j}, ");
-            }
-            else
-            Console.Write($"{i}%{j}, ");
-            isPrime = true;
-        }
-        if (isPrime == true)
+        if (IsPrime(i))
             sum += i;
     }
     return sum;
 }
-*/
+
+
+static bool IsPrime(int i)
+{
+    if (i <= 1) return false;
+    if (i == 2) return true;
+    if (i % 2 == 0) return false;
+
+    for (int j = 3; j*j <= i; j += 2)
+    {
+        if (i % j== 0) return false;
+    }
+    return true;
+}
+
 
 
 // EVEN FIBONACCI NUMBERS
